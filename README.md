@@ -8,7 +8,7 @@ Este es un proyecto inicial para un eCommerce ficticio de zapatos y zapatillas l
 
 ```bash
 npm install
-npm npm run dev
+npm run dev
 ```
 
 ## Estructura Principal de Archivos
