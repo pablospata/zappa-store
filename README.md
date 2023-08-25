@@ -1,8 +1,36 @@
-# React + Vite
+# Zappa-Store | Proyecto Curso Coderhouse ReactJS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
 
-Currently, two official plugins are available:
+Este es un proyecto inicial para un eCommerce ficticio de zapatos y zapatillas llamado Zappa-Store como parte del curso de ReactJS de Coderhouse.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Cómo correr el proyecto
+
+```bash
+npm install
+npm npm run dev
+```
+
+## Estructura Principal de Archivos
+
+```plaintext
+.
+├── src/
+│   ├── App.jsx
+│   ├── index.js
+│   ├── main.css
+│   └── components/
+│       ├── CartWidget.jsx
+│       ├── NavBar.jsx
+│       └── ItemListContainer.jsx
+└── package.json
+```
+
+## Componentes Principales
+
+- `App.jsx`: Incluye `NavBar` y `ItemListContainer`.
+- `NavBar.jsx`: Barra de navegación.
+- `ItemListContainer.jsx`: Muestra el mensaje de bienvenida.
+
+Correr `npm run dev` para iniciar el proyecto.
+```
