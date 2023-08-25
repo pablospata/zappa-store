@@ -1,0 +1,15 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+}
+
+.carrito {
+    display: flex;
+}
+
+.itemListContainer {    
+    font-size: 1rem;
+    text-align: center;
+    padding: 2rem;
+  }
