@@ -33,4 +33,3 @@ npm npm run dev
 - `ItemListContainer.jsx`: Muestra el mensaje de bienvenida.
 
 Correr `npm run dev` para iniciar el proyecto.
-```
