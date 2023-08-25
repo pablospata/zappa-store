@@ -1,15 +1,43 @@
 .navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 1rem 4rem;
+    background: linear-gradient(90deg, rgba(106, 17, 203, 1) 0%, rgba(37, 117, 252, 1) 100%);    
+    color: white;
+}
+
+.categorias {
+    background: linear-gradient(90deg, rgba(106, 17, 203, 1) 0%, rgba(37, 117, 252, 1) 100%);    
+    color: black;
+}
+
+.logo {
+    font-weight: 700;
+    text-decoration: double;
+    cursor: pointer;
+    display: flex;
+    gap: .5rem;
 }
 
 .carrito {
     display: flex;
+    cursor: pointer;
 }
 
-.itemListContainer {    
+.carrito-count {
+    font-size: 12px;
+    background-color: rgb(255, 17, 0);
+    border-radius: 50%;  /* Hace que sea redondo */
+    width: 1rem;         /* Ancho fijo */
+    height: 1rem;        /* Altura fija */
+    text-align: center;  /* Centra el texto horizontalmente */
+    line-height: 1rem;   /* Centra el texto verticalmente */
+}
+
+
+.itemListContainer {
     font-size: 1rem;
     text-align: center;
     padding: 2rem;
-  }
+}

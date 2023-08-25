@@ -10,18 +10,29 @@ import CartWidget from './CartWidget'
 const NavBar = () => {
   return (
     <div className='navbar'>
-      <p className='logo'>Zappa-Store</p>
+      <div className='logo'>
+        <p>Zappa-Store</p>
+        <span class="material-symbols-outlined">
+          steps
+        </span>
+      </div>
+
       <Menu>
         <MenuButton>
           Categorías
+          <span class="material-symbols-outlined">
+            arrow_drop_down
+          </span>
         </MenuButton>
-        <MenuList>
-          <MenuItem>Deportivos</MenuItem>
-          <MenuItem>Casuales</MenuItem>
-          <MenuItem>Formales</MenuItem>
-        </MenuList>
+        <div className='categorias'>
+          <MenuList>
+            <MenuItem>Deportivos</MenuItem>
+            <MenuItem>Casuales</MenuItem>
+            <MenuItem>Formales</MenuItem>
+          </MenuList>
+        </div>
       </Menu>
-      <CartWidget/>
+      <CartWidget />
     </div>
   )
 }
